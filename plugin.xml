@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="cordova-plugin-support-v4" version="1.0">
+  <name>cordova-plugin-support-v4</name>
+  <description>cordova-plugin-support-v4</description>
+
+  <license>MIT</license>
+
+  <engines>
+    <engine name="cordova" version=">=3.5.0" />
+  </engines>
+
+  <platform name="android">
+    <framework src="build.gradle" custom="true" type="gradleReference" />
+  </platform>
+</plugin>
